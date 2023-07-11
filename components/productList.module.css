@@ -1,0 +1,21 @@
+.outofstock {
+    text-decoration: line-through;
+}
+
+.outofstock::after {
+    margin-left: 10px;
+    text-decoration: none;
+    content: "OUT-OF-STOCK";
+    color: red;
+    display: inline-block;
+}
+
+.forsale {
+    font-weight: bold;
+}
+
+.forsale::after {
+    margin-left: 10px;
+    content: "FOR SALE!!";
+    color: green;
+}
